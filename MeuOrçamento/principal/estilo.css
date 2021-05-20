@@ -1,0 +1,47 @@
+body {
+    overflow-x: hidden;
+    font-family: Helvetica, Arial, sans-serif ;
+    height: 100%;
+}
+
+/*NAVEGAÇÃO*/
+#navegacao .navbar-nav .nav-link {
+    color: #37c06f;
+    font-weight: bold;
+}
+
+#navegacao .navbar-nav .nav-link:hover {
+    color: white;
+}
+
+.button.navbar-toggler{ 
+    color: rebeccapurple;
+    background: blue;
+}
+#registro h1 {
+    font-weight: 300;
+    font-size: 47px;
+}
+
+/*REGISTROS E CONSULTA*/
+
+
+@media (max-width: 768px) {
+    #dia, #mes, #ano, #descricao, #valor, #tipo {
+        margin-bottom: 10px;
+    }
+
+    #logotipo {
+        padding-left: -50px;
+    }
+ }
+
+ @media (min-width: 768.1px) {
+   
+
+    #logotipo {
+        padding-left: 40px;
+    }
+ }
+
+
